@@ -1,1 +1,31 @@
 /* You can add global styles to this file, and also import other style files */
+:root {
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+body {
+  margin: 0;
+  padding: 1rem;
+  background-color: #ddd;
+}
+
+.btns-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 2rem;
+  background-color: #777;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  padding: 1rem 2rem;
+}
+
+button {
+  font-family: monospace;
+  font-size: 1rem;
+  padding: 0.6em 1.2em;
+  background-color:darkviolet;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  color: #fff;
+}
